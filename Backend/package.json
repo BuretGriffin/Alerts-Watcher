@@ -1,0 +1,14 @@
+{
+  "name": "alerts-watcher-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node runScraper.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "playwright": "^1.57.0",
+    "tesseract.js": "^7.0.0"
+  }
+}
